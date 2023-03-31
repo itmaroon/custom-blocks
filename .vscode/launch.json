@@ -1,0 +1,12 @@
+{
+"version": "0.2.0",
+"configurations": [
+    {
+    "type": "chrome",
+    "request": "launch",
+    "name": "block test",
+    "url": "https://blocktest.local/wp-admin/edit.php",
+    "webRoot": "${workspaceFolder}",
+    }
+]
+}

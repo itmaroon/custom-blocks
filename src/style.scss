@@ -1,0 +1,18 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-custom-blocks {
+	&.is-style-default{
+		border: 0;
+        background-color: #FFE2C7;
+	}
+	&.is-style-border{
+		border: 2px solid #000;
+        border-radius: 16px;
+        background-color: #F6F6F6;
+	}
+}
